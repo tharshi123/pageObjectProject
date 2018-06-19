@@ -1,0 +1,11 @@
+*.class
+LoginFB.java
+TestFBLogin.java
+
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+test-output/
