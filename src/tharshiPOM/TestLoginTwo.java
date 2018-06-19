@@ -34,6 +34,7 @@ public class TestLoginTwo {
 	@Test
 	public void loginIntoFB(String username , String password)
 	{
+		System.out.println("Iam inside login page"); 
 		lfb = new LoginPage(driver);
 		lfb.login(username, password);
 		System.out.println("PageTitle: " + lfb.getpageTitle());
