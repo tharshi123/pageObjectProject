@@ -11,7 +11,7 @@ import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import PageObjects.LoginPage;
-import pageObjectProject/blob/master/src/tharshiPOM/TestLoginTwo.java;
+import .com.tharshi123.pageOpbjectProjects.src.TestLoginTwo.java;
 
 
 public class TestLoginTwo {
