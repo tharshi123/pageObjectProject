@@ -1,4 +1,5 @@
-package tharshiPOM;
+//package tharshiPOM;
+package .com.tharshi123.pageObjectProject.src.tharshiPOM;
 
 import java.util.concurrent.TimeUnit;
 
