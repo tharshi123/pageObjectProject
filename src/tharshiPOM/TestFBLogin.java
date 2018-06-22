@@ -5,17 +5,14 @@ import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.BeforeTest;
-import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
-import PageObjects.LoginPage;
-
-public class TestLoginTwo {
+public class TestFBLogin {
 	
 	public WebDriver driver;
 	public String driverPath = "C:\\Users\\Tharshini\\Downloads\\chromedriver_win32\\chromedriver.exe";
 	
-	LoginPage lfb;
+	LoginFB lfb;
 	
 
 	@BeforeTest
@@ -30,13 +27,14 @@ public class TestLoginTwo {
 
 	}
 	
-	@Parameters({ "username", "password" })
+	
 	@Test
-	public void loginIntoFB(String username , String password)
+	public void loginIntoFB()
 	{
-		System.out.println("Iam inside login kkkkkpage"); 
-		lfb = new LoginPage(driver);
-		lfb.login(username, password);
+		lfb = new LoginFB(driver);
+		////lfb.setPassword("jeytharshi@gmail.com");
+		//lfb.setPassword("Loges@1234");
+		lfb.login("jeytharshi@gmail.com", "Loges@1234");
 		System.out.println("PageTitle: " + lfb.getpageTitle());
 	}
 	
