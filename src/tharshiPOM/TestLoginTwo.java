@@ -1,5 +1,5 @@
 //package tharshiPOM;
-package .com.tharshi123.pageObjectProject.src.tharshiPOM;
+package tharshiPOM;
 
 import java.util.concurrent.TimeUnit;
 
@@ -11,7 +11,7 @@ import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import PageObjects.LoginPage;
-import .com.tharshi123.pageOpbjectProjects.src.TestLoginTwo.java;
+//import TestLoginTwo.java;
 
 
 public class TestLoginTwo {
