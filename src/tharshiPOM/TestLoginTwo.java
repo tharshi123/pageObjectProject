@@ -1,14 +1,18 @@
-package tharshiPOM;
+//package tharshiPOM;
+package .com.tharshi123.pageObjectProject.src.tharshiPOM;
 
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
+
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import PageObjects.LoginPage;
+import .com.tharshi123.pageOpbjectProjects.src.TestLoginTwo.java;
+
 
 public class TestLoginTwo {
 	
